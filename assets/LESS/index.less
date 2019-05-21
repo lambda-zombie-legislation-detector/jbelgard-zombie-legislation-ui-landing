@@ -1,0 +1,24 @@
+
+@import './variables';
+@import './mixins';
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    flex(none, center, column);
+    background-color: @color-one;
+    color: @color-five;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+@import '/assets/TopBar/TopBar';
+@import '/assets/Header/Header';
+@import '/assets/Carousel/Carousel';
